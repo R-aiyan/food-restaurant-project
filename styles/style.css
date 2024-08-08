@@ -11,6 +11,7 @@ letter-spacing: 0%;
 text-align: center;
 background: rgb(82, 195, 3);
 border: none;
+cursor: pointer;
 }
 .btn-cont{
     text-align: center;
@@ -64,3 +65,55 @@ text-align: center;
 opacity: 0.7;
 margin-bottom: 30;
 }
+
+
+#card-box{
+    width: 900px;
+    margin: 100px auto; }
+
+#card-box .info{}    
+
+#card-box .tit{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 22px;
+font-weight: 700;
+line-height: 25px;
+letter-spacing: 0%;
+text-align: center;
+}
+#card-box .sub{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 12px;
+font-weight: 500;
+line-height: 13px;
+letter-spacing: 0%;
+text-align: center;
+    opacity: 0.6;}
+
+    .card-container{
+        margin-top:30px;
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        font-family:Work Sans;
+    }
+    .card{
+        max-width: 250px;
+        display: flex;
+     flex-direction: column;
+     gap: 8px;
+     justify-content: center;
+     align-items: center;
+    }
+    .card .image-box{
+        width: 240px
+    }
+    .card .image-box img{
+        width: 100%;
+    }
+    .card .shop{
+        background-color: rgba(7, 174, 212, 0.385);
+        padding: 8px 14px 8px 14px;
+    }
